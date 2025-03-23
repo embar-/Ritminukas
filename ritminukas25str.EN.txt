@@ -1,0 +1,31 @@
+Model parameters:
+ 
+<BRAIN and SAN>
+HRbasal – Rate of denervated heart at SAN (beats per minute)
+Ssmpt - Theoretically brain sympathetic basal level, practically merged with Arvlm_sp and thus here set to 0
+Sparas – Brain parasympathetic basal level
+Drsa – Transfer function denominator at NAmb for RSA 
+Krsa – RSA coefficient at NAmb
+Trsa - Time delay between respiration signal and RSA effect
+Arvlm_sp - Theoretically only constant spontaneous RVLM internal activity, practically brain sympathetic basal level is added
+Arvlm_mx - Saturation limit of RVML output
+Kcvlm - NTS parasympathetic effect on sympathetic activity coefficient at CVLM
+Dcvlm - Transfer function denominator at CVLM 
+Ks - Sympathetic activity multiplier coefficient at SAN
+ 
+<BARORECEPTION>
+Pk - ABP derivative coefficient for baroreception
+Kb - Scaling factor of ABP and its derivative sum for baroreception
+Peq - Central point of the sigmoidal functional for baroreception
+Kab - Slope-related coefficient for baroreception
+Bmax - Baroafferent activity saturation level
+ 
+ 
+Abbreviations: 
+ABP, arterial (blood) pressure; 
+CVLM, caudal ventrolateral medulla; 
+NAmb, nucleus ambiguus; 
+NTS, nucleus tractus solitarius; 
+RSA, respiratory sinus arrhythmia; 
+(R)VLM, (rostral) ventrolateral medulla; 
+SAN, sinoatrial node.

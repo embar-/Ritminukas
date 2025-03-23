@@ -1,0 +1,27 @@
+% Ritminukas v2023-03-06
+% Modelis: ritminukas25str
+% 
+% LT      Parametrų reikšmės:
+% Param   Prad  Žem  Aukšč Kintamas
+%
+% EN      Params values:
+% Param   Init Lower Upper Changable
+%
+HRbasal   100   80   110     1 % Savitasis širdies ritmas
+Ssmpt     0      0     0     0 % Simpatinis tonusas nuo aukšt. smegenų
+Sparas    0.1    0     1     1 % Parasimpatinis tonusas nuo aukšt. smegenų
+Drsa      0.7    0.4   2.5   1 % kvėpuojamosios aritmijos (RSA) perdavimo funkcijos narys vardiklyje
+Krsa      0.5    0     2     1 % kvėpuojamosios aritmijos (RSA) perdavimo funkcijos narys skaitiklyje
+Trsa      0      0     1     1 % kvėpuojamosios aritmijos (RSA) delsa
+Arvlm_sp  0.8    0     5     1 % RVML koef.: spontaninis simpatinis aktyvumas
+Arvlm_mx  0.05   0.001 0.5   1 % RVML koef.:  maksimalus simpatinis aktyvumas
+Kcvlm     5      0    30     1 % CVLM koef. skaitiklyje
+Dcvlm     0.5    0.1   1     1 % CVLM koef. vardiklyje
+Ks        3      0    10     1 % Simpatinio aktyvumo koeficientas
+Pk        0.5    0     5     1 % Kraujo spaudimo išvestinės koef.
+Kb        0.5    0.01 10     1 % Kraujo spaudimo ir jo išvestinės sumos koef.
+Peq      92     80     100   1 % Sigmoidės pusiausvyros taškas
+Kab      11.758  1    50     1 % Koef. susijęs su sigmoidės nuožulnumu
+Bmax      1      0     5     1 % Didžiausias galimas baro aktyvumas
+
+% Atnaujinta 2023-02-01

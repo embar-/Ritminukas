@@ -1,0 +1,21 @@
+Modelio parametrai:
+ 
+<SMEGENŲ IR SINUSIO MAZGO>
+HRbasal - vidinis (savitasis) širdies ritmas (k/min)
+Sparas - parasimpatinis tonusas nuo aukšt. smegenų (s.v.)
+Drsa - kvėpuojamosios aritmijos (RSA) perdavimo funkcijos narys vardiklyje
+Krsa - kvėpuojamosios aritmijos (RSA) koef.
+Trsa - kvėpuojamosios aritmijos (RSA) delsa
+Arvlm_sp - RVML spontaninis simpatinis aktyvumas (s.v.)
+Arvlm_mx - RVML didžiausias aktyvumas išėjime (s.v.)
+Kcvlm - CVLM koef. parasimpatiniam aktyvumui slopina simpatinį (perdavimo f-jos skaitiklis)
+Dcvlm - CVLM koef. parasimpatiniam aktyvumui slopina simpatinį (perdavimo f-jos vardiklis)
+Ks - Simpatinio aktyvumo daugiklis ties sinusiniu mazgu
+ 
+<BARORECEPCIJA>
+Pk - kraujo spaudimo išvestinės koef.
+Kb - kraujo spaudimo ir jo išvestinės sumos koef.
+Peq - sigmoidės pusiausvyros taškas
+Kab - koef. susijęs su sigmoidės nuožulnumu
+Bmax - didžiausias galimas baro aktyvumas
+ 
